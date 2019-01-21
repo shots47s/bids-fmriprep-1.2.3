@@ -468,8 +468,13 @@
         "path-template" : "[OUTPUT_DIR]",
         "optional" : false
     }],
-    "name": "BIDS App - fmriprep", 
+    "name": "BIDSAppFMRIprep", 
     "schema-version": "0.5", 
+    "suggested-resources": {
+	"cpu-cores":4,
+	"ram": 4,
+	"walltime-estimate": 172000
+    },
     "tags": {
         "application-type": [
             "bids"
@@ -480,8 +485,8 @@
         ]
     }, 
         "container-image": {
-        "type": "docker",
-        "image": "poldracklab/fmriprep:1.2.3"
+        "type": "singularity",
+        "image": "shots47s/bids-fmriprep-1.2.3"
      },
     "tool-version": "1.2.3"
 }
