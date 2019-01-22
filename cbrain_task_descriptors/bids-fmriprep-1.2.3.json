@@ -9,7 +9,7 @@
             "id": "bids_dir", 
             "name": "bids_dir", 
             "optional": false, 
-            "type": "String", 
+            "type": "File", 
             "value-key": "[BIDS_DIR]"
         }, 
         {
@@ -17,7 +17,7 @@
             "id": "output_dir", 
             "name": "output_dir", 
             "optional": false, 
-            "type": "String", 
+            "type": "File", 
             "value-key": "[OUTPUT_DIR]"
         }, 
         {
@@ -68,6 +68,7 @@
             "optional": true, 
             "type": "Number", 
             "value-key": "[NTHREADS]"
+            "default-value" : 4
         }, 
         {
             "command-line-flag": "--omp-nthreads", 
@@ -77,6 +78,7 @@
             "optional": true, 
             "type": "Number", 
             "value-key": "[OMP_NTHREADS]"
+            "default-value" : 4
         }, 
         {
             "command-line-flag": "--mem_mb", 
@@ -86,6 +88,7 @@
             "optional": true, 
             "type": "Number", 
             "value-key": "[MEM_MB]"
+            "default-value" : 8192
         }, 
         {
             "command-line-flag": "--low-mem", 
