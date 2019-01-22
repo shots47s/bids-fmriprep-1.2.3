@@ -67,7 +67,7 @@
             "name": "nthreads", 
             "optional": true, 
             "type": "Number", 
-            "value-key": "[NTHREADS]"
+            "value-key": "[NTHREADS]",
             "default-value" : 4
         }, 
         {
@@ -77,7 +77,7 @@
             "name": "omp_nthreads", 
             "optional": true, 
             "type": "Number", 
-            "value-key": "[OMP_NTHREADS]"
+            "value-key": "[OMP_NTHREADS]",
             "default-value" : 4
         }, 
         {
