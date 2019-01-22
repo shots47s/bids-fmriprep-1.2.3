@@ -87,7 +87,7 @@
             "name": "mem_mb", 
             "optional": true, 
             "type": "Number", 
-            "value-key": "[MEM_MB]"
+            "value-key": "[MEM_MB]",
             "default-value" : 8192
         }, 
         {
