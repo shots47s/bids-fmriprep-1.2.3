@@ -200,10 +200,6 @@
         }, 
         {
             "command-line-flag": "--output-space", 
-            "default-value": [
-                "template", 
-                "fsaverage5"
-            ], 
             "description": "volume and surface spaces to resample functional series into\n - T1w: subject anatomical volume\n - template: normalization target specified by --template\n - fsnative: individual subject surface\n - fsaverage*: FreeSurfer average meshes\nthis argument can be single value or a space delimited list,\nfor example: --output-space T1w fsnative", 
             "id": "output_space", 
             "list": true, 
