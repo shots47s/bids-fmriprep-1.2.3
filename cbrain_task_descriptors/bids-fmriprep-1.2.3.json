@@ -14,8 +14,8 @@
         },
         {
             "description": "the output path for the outcomes of preprocessing and visual reports",
-            "id": "output_dir",
-            "name": "output_dir",
+            "id": "output_dir_name",
+            "name": "output_dir_name",
             "optional": false,
             "type": "String",
             "value-key": "[OUTPUT_DIR]"
@@ -510,7 +510,7 @@
 
     ],
     "output-files" : [{
-        "id" : "output_directory",
+        "id" : "output_dir",
         "name" : "Output Directory",
         "description" : "This is the directory where the overall outputs are to be stored.",
         "path-template" : "[OUTPUT_DIR]",
