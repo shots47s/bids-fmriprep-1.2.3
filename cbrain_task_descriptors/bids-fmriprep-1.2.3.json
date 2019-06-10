@@ -33,7 +33,6 @@
         },
         {
             "command-line-flag": "--version",
-            "default-value": false,
             "description": "show program's version number and exit",
             "id": "version",
             "name": "version",
@@ -322,7 +321,6 @@
         },
         {
             "command-line-flag": "--fmap-no-demean",
-            "default-value": true,
             "description": "do not remove median (within mask) from fieldmap",
             "id": "fmap_no_demean",
             "name": "fmap_no_demean",
@@ -350,7 +348,6 @@
         },
         {
             "command-line-flag": "--no-submm-recon",
-            "default-value": true,
             "description": "disable sub-millimeter (hires) reconstruction",
             "id": "hires",
             "name": "hires",
@@ -369,7 +366,6 @@
         },
         {
             "command-line-flag": "--fs-no-reconall",
-            "default-value": true,
             "description": "disable FreeSurfer surface preprocessing. Note : `--no-freesurfer` is deprecated and will be removed in 1.2. Use `--fs-no-reconall` instead.",
             "id": "run_reconall",
             "name": "run_reconall",
